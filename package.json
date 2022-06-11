@@ -4,10 +4,12 @@
   "description": "price scraper",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node index.js"
   },
   "author": "petter",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
     "isomorphic-fetch": "^3.0.0"
   }
