@@ -1,3 +1,4 @@
-import {go} from './getAnkarsumPrice.js'
+import {getAndPrintPrice} from './getAnkarsrumPrice.js'
 
-await go();
+const url = 'https://www.prisjakt.no/product.php?p=4220665';
+await getAndPrintPrice(url);
