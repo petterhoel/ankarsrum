@@ -4,7 +4,6 @@
   "description": "price scraper",
   "main": "index.js",
   "scripts": {
-    "test": "test",
     "start": "node index.js"
   },
   "author": "petter",
