@@ -8,7 +8,7 @@
   },
   "author": "petter",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
     "@netlify/functions": "^1.0.0",
     "isomorphic-fetch": "^3.0.0"
