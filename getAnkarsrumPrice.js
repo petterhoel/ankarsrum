@@ -29,14 +29,13 @@ export async function getAndPrintPrice(url) {
     const regex =  /(priceSummary":{"regular":\d+)/
     const matches = html.match(regex);
     if (!matches.length) {
-        return
+        return 'No match'
     }
     const price = extractPriveFromPriceSummary(matches[0])
     performance.mark("price-done")
-    console.log(price)
     performance.measure('price-fetch', 'price-start', 'price-fetchend')
     performance.measure('price-parse', 'price-fetchend', 'price-done')
     performance.measure('price-total', 'price-start', 'price-done')
-
-
+    console.log(price)
+    return price;
 }
