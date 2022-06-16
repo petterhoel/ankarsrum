@@ -1,5 +1,5 @@
-const { schedule } = require('@netlify/functions')
-const {getAndPrintPrice} = require("../../getAnkarsrumPrice.js");
+const {getAndPrintPrice} = require("../../getAnkarsrumPrice");
+const {schedule} = require("@netlify/functions");
 
 const handler = async function(event, context) {
     const url = 'https://www.prisjakt.no/product.php?p=4220665';

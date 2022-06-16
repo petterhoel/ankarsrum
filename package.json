@@ -2,9 +2,9 @@
   "name": "ankarsrum",
   "version": "1.0.0",
   "description": "price scraper",
-  "main": "index.js",
+  "main": "",
   "scripts": {
-    "start": "node index.js"
+    "start": "netlify dev"
   },
   "author": "petter",
   "license": "ISC",
